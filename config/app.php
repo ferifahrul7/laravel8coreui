@@ -174,8 +174,13 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         // tambahan
         App\Providers\ResponseServiceProvider::class,
+=======
+        App\Providers\FortifyServiceProvider::class,
+        App\Providers\JetstreamServiceProvider::class,
+>>>>>>> d41cc558fd918f215beb6055b18e26f612641c86
 
     ],
 

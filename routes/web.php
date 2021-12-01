@@ -15,14 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Auth::routes();
 
 Route::group(['middleware' => 'auth'], function () {
 	Route::get('/home', [HomeController::class, 'index']);
 	Route::get('kriteria/ajaxtable', [KriteriaController::class, 'ajaxTable'])->name('kriteria.ajaxtable');
 	Route::resource('kriteria', KriteriaController::class);
+=======
+
+Route::group(['middleware' => 'auth'], function () {
+	Route::get('/home', [HomeController::class, 'index']);
+>>>>>>> d41cc558fd918f215beb6055b18e26f612641c86
 });
 
