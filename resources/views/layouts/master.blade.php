@@ -11,7 +11,7 @@
 	<meta name="csrf_token" value="{{ csrf_token() }}">
 	<meta name="keyword" content="Belajar Program untuk Skripsi">
 	<title>@yield('title')</title>
-	<link href="{{ asset('css/coreui.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body class="c-app">
