@@ -6,5 +6,8 @@
 // @import '~bootstrap/scss/bootstrap';
 // Coreui Icon
 @import '@coreui/icons';
-//
+// @import '@fortawesome/fontawesome-free';
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 @import "../../node_modules/@coreui/coreui/scss/coreui";

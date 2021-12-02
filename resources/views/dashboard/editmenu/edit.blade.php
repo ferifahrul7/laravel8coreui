@@ -143,7 +143,7 @@
                                             target="_blank"
                                         >
                                             CoreUI icons documentation
-                                        </a>
+                                        </a>  atau di fontawesome
                                         <br>
                                         <input 
                                             class="form-control" 
