@@ -15,14 +15,18 @@
 </head>
 
 <body class="c-app">
-	@include('layouts.partials.sidebar')
-	<div class="c-wrapper c-fixed-components">
-		@include('layouts.partials.header')
+
+	<div class="c-sidebar c-sidebar-dark c-sidebar-fixed c-sidebar-lg-show" id="sidebar">
+		@include('dashboard.shared.nav-builder')
+
+		@include('dashboard.shared.header')
 		<div class="c-body">
 			<main class="c-main">
-				@yield('content')
+				<div id="app">
+					@yield('content')
+				</div>
 			</main>
-			@include('layouts.partials.footer')
+        @include('dashboard.shared.footer')
 		</div>
 	</div>
 

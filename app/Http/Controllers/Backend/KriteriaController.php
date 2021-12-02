@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Backend;
 
 use App\DataTables\KriteriaDataTable;
 use App\Http\Requests\KriteriaStoreRequest;

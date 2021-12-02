@@ -175,6 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // tambahan
+        
+	    Spatie\Permission\PermissionServiceProvider::class,
         App\Providers\ResponseServiceProvider::class,
 
     ],
