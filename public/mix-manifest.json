@@ -1,4 +1,9 @@
 {
+    "/js/menu-create.js": "/js/menu-create.js",
+    "/js/menu-edit.js": "/js/menu-edit.js",
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/colors.js": "/js/colors.js",
+    "/js/popovers.js": "/js/popovers.js",
+    "/js/tooltips.js": "/js/tooltips.js"
 }

@@ -122,9 +122,8 @@
 
 @endsection
 
-@section('javascript')
-<script src="{{ asset('js/axios.min.js') }}"></script> 
+@push('scripts')
 <script src="{{ asset('js/menu-create.js') }}"></script>
 
 
-@endsection
+@endpush

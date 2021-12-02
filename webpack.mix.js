@@ -11,6 +11,12 @@ const mix = require('laravel-mix');
  |
  */
 
+mix.copy('resources/js/coreui/colors.js', 'public/js');
+mix.copy('resources/js/coreui/popovers.js', 'public/js');
+mix.copy('resources/js/coreui/tooltips.js', 'public/js');
+mix.js('resources/js/coreui/menu-create.js', 'public/js');
+mix.js('resources/js/coreui/menu-edit.js', 'public/js');
+
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sourceMaps();
