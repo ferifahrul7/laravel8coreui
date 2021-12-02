@@ -1,8 +1,8 @@
-Laravel Project Starter
-template bootstrap : coreui 3.4.0
-framework php : laravel 8
-framework css : bootstrap 4
-framework javascript : jquery 3.6
+1. Laravel Project Starter
+2. template bootstrap : coreui 3.4.0
+3. framework php : laravel 8
+4. framework css : bootstrap 4
+5. framework javascript : jquery 3.6
 
 fitur yang sudah ada :
 1. laravel-permission dari spatie
