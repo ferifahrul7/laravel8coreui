@@ -18,10 +18,14 @@ if (!function_exists('renderDropdown')) {
             echo '</ul></li>';
         } else {
             for ($i = 0; $i < count($data); $i++) {
+                $icon = "";
                 if ($data[$i]['slug'] === 'link') {
+                    if ($data[$i]['hasIcon'] === true && $data[$i]['iconType'] === 'coreui') {
+                        $icon = $data[$i]['icon'];
+                    }
                     echo '<li class="c-sidebar-nav-item">';
                     echo '<a class="c-sidebar-nav-link" href="' . url($data[$i]['href']) . '">';
-                    echo '<span class="c-sidebar-nav-icon"></span>' . $data[$i]['name'] . '</a></li>';
+                    echo '<i class="c-sidebar-nav-icon '.$icon.'"></i>' . $data[$i]['name'] . '</a></li>';
                 } elseif ($data[$i]['slug'] === 'dropdown') {
                     renderDropdown($data[$i]);
                 }
